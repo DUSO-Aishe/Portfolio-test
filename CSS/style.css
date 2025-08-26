@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(25, 25, 25);
+}
+#main {
+    width: 85vw;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border-radius: 3.5vw;
+    background-color: rgb(35, 35, 35);
+    color: rgb(225, 225, 225);
+    height : 82vh;
+    margin: 0;
+    height: fit-content;
+}
+#main h2{
+    margin-bottom: 0;
+    font-size: 5.7vw;
+}
+.image{
+    border-radius: 100vw;
+    width: 20vw;
+    margin: 4vh 0 2vh 0;
+}
+#details{
+    display: flex;
+    flex-direction: column;
+    font-family: "inter-bold";
+}
+.location{
+    color: rgb(174, 219, 22);
+}
+.hobbies{
+    font-family: "inter-reg";
+    font-size: 3.5vw;
+}
+#links{
+    display: flex;
+    flex-direction: column;
+    margin: 2vh 0;
+    width: 100%;
+    align-items: center;
+}
+#links p{
+    background-color: rgb(55, 55,55);
+    width: 75%;
+    padding: 2vh;
+    margin-top: 0;
+    border: 2px solid rgb(55, 55,55);
+    border-radius: 1.8vw;
+    font-family: "inter-bold";
+    font-size: 3.5vw;
+}
+#links p:hover{
+    background-color: rgb(174, 219, 22);
+    color: black;
+    border-color:rgb(174, 219, 22);
+}
+@media all and (min-width:768px) and (max-width: 1080px){
+    #main{
+        width: 40vw;
+        height: fit-content;
+        background-color: grey;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        border-radius: 1.5vw;
+        background-color: rgb(35, 35, 35);
+        color: rgb(225, 225, 225);
+        margin: 0;
+        
+    }
+    .image{
+        width: 10vw;
+    }
+    #details h2{
+        font-size:3vw;
+        margin-top: 0;
+    }
+    .location{
+        font-size:1.5vw;
+    }
+    .hobbies{
+        font-size: 1.5vw;
+    }
+    #links p{
+        font-size: 1.5vw;
+        padding: 1vw;
+        border-radius: 1vw;
+    }
+}
+@media all and (min-width: 480px) and (max-width: 768px){
+    #main{
+        height: fit-content;
+        width: 70vw;
+    }
+    #links p{
+        padding: 1.5vw;
+        font-size: 2.6vw;
+    }
+    #details h2{
+        font-size: 4.5vw;
+    }
+    .image{
+        width: 17vw;
+        margin-bottom: 0;
+    }
+    .hobbies{
+        font-size: 2.5vw;
+        margin-bottom: 0;
+    }
+    .location{
+        font-size: 2.5vw;
+    }
+}
+@media all and (min-width: 1080px){
+    #main{
+        height: fit-content;
+        width: 30vw;
+        border-radius: 1vw;
+    }
+    #details h2{
+        font-size: 2vw;
+    }
+    .image{
+        width: 8vw;
+        margin-bottom: 0;
+    }
+    #links p {
+        font-size: 1vw;
+        padding: 1vw;
+        border-radius: 0.5vw;
+    }
+    .hobbies{
+        font-size: 1.1vw;
+    }
+    .location{
+        font-size: 1.1vw;
+    }
+}
