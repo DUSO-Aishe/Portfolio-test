@@ -127,25 +127,26 @@ body{
 @media all and (min-width: 1080px){
     #main{
         height: fit-content;
-        width: 30vw;
-        border-radius: 1vw;
+        width: 23vw;
+        border-radius: 0.7vw;
     }
     #details h2{
-        font-size: 2vw;
+        font-size: 1.3vw;
     }
     .image{
-        width: 8vw;
+        width: 5vw;
         margin-bottom: 0;
     }
     #links p {
-        font-size: 1vw;
-        padding: 1vw;
+        font-size: 0.85vw;
+        padding: 0.7vw;
         border-radius: 0.5vw;
     }
     .hobbies{
-        font-size: 1.1vw;
+        font-size: 0.85vw;
     }
     .location{
-        font-size: 1.1vw;
+        font-size: 0.85vw;
     }
 }
+
